@@ -1,6 +1,6 @@
-/* ----------------------------------------------------
+/*
    1. MOBILE MENU TOGGLE
----------------------------------------------------- */
+*/
 
 // Create a menu button dynamically (since your HTML has none)
 const navbar = document.querySelector('.navbar');
@@ -58,9 +58,9 @@ navLinks.querySelectorAll('a').forEach(link => {
 });
 
 
-/* ----------------------------------------------------
+/* 
    2. SCROLL INDICATOR (Progress Bar)
----------------------------------------------------- */
+*/
 
 // Create the scroll bar at top
 const scrollBar = document.createElement('div');
@@ -84,9 +84,9 @@ function updateScrollBar() {
 window.addEventListener('scroll', updateScrollBar);
 
 
-/* ----------------------------------------------------
+/*
    3. CONTACT FORM VALIDATION
----------------------------------------------------- */
+*/
 
 const form = document.querySelector('form');
 
